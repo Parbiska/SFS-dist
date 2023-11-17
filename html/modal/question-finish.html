@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="../../css/libs/reset.css" />
+		<link rel="stylesheet" href="../../css/fonts.css" />
+		<link rel="stylesheet" href="../../css/style.css" />
+		<link rel="stylesheet" href="../../css/responsive.css" />
+
+		<title>Second Friend Store</title>
+	</head>
+	<body class="disable-scroll">
+		<header class="header">
+			<div class="header__top">
+				<div class="header__top-wrapper">
+					<div class="header__top-item header__top-address">
+						Шоурум в Москве: ул. Мясницкая 24/7 стр 1 • работаем с
+						11:00 до 21:00
+					</div>
+					<div class="header__top-item">
+						<div class="header__top-number">
+							<a href="tel:+7 495 268 06 33">+7 495 268 06 33</a>
+							или
+							<a href="tel:8 800 777 61 49">8 800 777 61 49</a>
+						</div>
+						<div>Доставка по всему миру</div>
+					</div>
+				</div>
+			</div>
+			<h1 class="header-title">cеконд-хэнд эксклюзивных брендов</h1>
+
+			<div class="header__main">
+				<div class="header__main-left-nav header__main-left-desktop">
+					<a href="#" class="header__main-left-link is-active"
+						>Женское</a
+					>
+					<a href="#" class="header__main-left-link">Мужское</a>
+					<a href="#" class="header__main-left-link">Детское</a>
+				</div>
+
+				<div class="header__main-left-nav header__main-left-mobile">
+					<div class="header__main-left-item header__burger"></div>
+					<div class="header__main-left-item header__search"></div>
+				</div>
+
+				<div class="header__main-logo">
+					<a class="header__main-logo-link" href="#"></a>
+				</div>
+
+				<div class="header__main-right">
+					<div class="header__main-right-nav">
+						<a
+							href="#"
+							class="header__main-right-link header__main-right-link_sell"
+							>Продать вещи</a
+						>
+						<a href="#" class="header__main-right-link">Медиа</a>
+					</div>
+					<div class="header__main-user">
+						<a href="#" class="header__main-user-link">
+							<div
+								class="header__main-user-img header__main-user-search"
+							></div>
+						</a>
+						<a href="#" class="header__main-user-link">
+							<div
+								class="header__main-user-img header__main-user-favorite"
+							></div>
+							<span class="header__main-count"></span>
+						</a>
+						<a href="#" class="header__main-user-link">
+							<div
+								class="header__main-user-img header__main-user-cart"
+							></div>
+							<span class="header__main-count"></span>
+						</a>
+						<a href="#" class="header__main-user-link">
+							<div
+								class="header__main-user-img header__main-user-profile"
+							></div>
+							<span class="header__main-user-name"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<nav class="header__nav">
+				<ul class="header__nav-menu">
+					<li class="header__nav-menu-item">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Одежда</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Обувь</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Аксессуары</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Сумки</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Sale</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Новинки</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item is-active">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Бренды</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Hot lots</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Ювелирные изделия</h2>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<nav class="product__nav-mobile">
+			<ul class="product__nav-mobile-wrapper">
+				<li class="product__nav-item">
+					<a href="#" class="product__nav-link">главная</a>
+				</li>
+				<li class="product__nav-item">
+					<a href="#" class="product__nav-link">женская одежда</a>
+				</li>
+				<li class="product__nav-item">
+					<a href="#" class="product__nav-link">платья</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="overlay overlay-g"></div>
+
+		<div class="modal">
+			<div class="modal__wrapper">
+				<div class="modal__close">
+					<div class="modal__close-cross"></div>
+				</div>
+
+				<div class="modal__content">
+					<h2 class="modal__title">Спасибо!</h2>
+
+					<div class="modal__subtitle">
+						Скоро на ваш вопрос ответит <br />
+						менеджер-консультант
+					</div>
+
+					<div class="modal__button">
+						<button>Хорошо</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<article class="product">
+				<section class="product__wrapper">
+					<div class="product__slider">
+						<div class="product__slider-wrapper">
+							<div class="product__slider-left">
+								<div class="product__slider-left-arrow"></div>
+							</div>
+							<div class="product__slider-content">
+								<div class="product__slider-img">
+									<img
+										src="../../assets/product/slider/img-1.png"
+										alt="img"
+									/>
+								</div>
+								<div class="product__slider-img">
+									<img
+										src="../../assets/product/slider/img-2.png"
+										alt="img"
+									/>
+								</div>
+							</div>
+							<div class="product__slider-right">
+								<div class="product__slider-right-arrow"></div>
+							</div>
+
+							<div class="product__slider-with">
+								с чем носить
+								<span class="product__slider-with-img"
+									><img
+										src="../../assets/icons/product/slider/eye.svg"
+										alt="eye"
+								/></span>
+							</div>
+
+							<div class="product__slider-progress">
+								<div
+									class="product__slider-progress-item is-active"
+								></div>
+								<div
+									class="product__slider-progress-item"
+								></div>
+								<div
+									class="product__slider-progress-item"
+								></div>
+								<div
+									class="product__slider-progress-item"
+								></div>
+								<div
+									class="product__slider-progress-item product__slider-progress-item-mobile"
+								></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="product__content">
+						<ul class="product__nav">
+							<li class="product__nav-item">
+								<a href="#" class="product__nav-link"
+									>главная</a
+								>
+							</li>
+							<li class="product__nav-item">
+								<a href="#" class="product__nav-link"
+									>женская одежда</a
+								>
+							</li>
+							<li class="product__nav-item">
+								<a href="#" class="product__nav-link">платья</a>
+							</li>
+							<li class="product__nav-item">
+								<a href="#" class="product__nav-link"
+									>платье Comme Des Garcons Junya Watanabe</a
+								>
+							</li>
+						</ul>
+
+						<div class="product__only-online">только онлайн</div>
+
+						<h2 class="product__title">
+							Comme Des Garcons Junya Watanabe
+						</h2>
+
+						<div class="product__subtitle">
+							<div class="product__subtitle-text">
+								Платье черного цвета
+							</div>
+							<div class="product__subtitle-text-mobile">
+								Платье черного цвета • размер xs
+							</div>
+							<div class="product__subtitle-authentication">
+								Вещь аутентифицирована
+							</div>
+						</div>
+
+						<div class="product__price">
+							<div class="product__price-wrapper">
+								<div class="product__price-current">
+									60 900 ₽
+								</div>
+
+								<div class="product__price-installment">
+									от
+									<span
+										class="product__price-installment-payment"
+										>942 ₽</span
+									>
+									×
+									<span
+										class="product__price-installment-count"
+										>3</span
+									>
+									<img
+										src="../../assets/icons/product/arrow-right-orange.svg"
+										alt="arrow"
+									/>
+								</div>
+							</div>
+
+							<div class="product__only-online">
+								только онлайн
+							</div>
+						</div>
+
+						<div class="product__size">
+							<div class="product__size-text">
+								<span>Размер 38,5</span>
+								<span>•</span>
+								<span>На бирке М</span>
+							</div>
+
+							<div class="product__size-table">
+								Таблица размеров
+							</div>
+						</div>
+
+						<div class="product__authentication">
+							<div class="product__authentication-text">
+								Все вещи в нашем каталоге аутентифицированы
+							</div>
+							<div class="product__authentication-text-mobile">
+								вещь аутентифицирована
+							</div>
+						</div>
+
+						<div class="product__info">
+							<ul class="product__info-nav">
+								<li class="product__info-nav-item is-active">
+									<h4 class="product__info-nav-title">
+										О товаре
+									</h4>
+									<div class="product__info-nav-content">
+										<div class="product__about">
+											<div class="product__about-text">
+												Оранжевое бархатное платье макси
+												с бархатным узором, спина
+												открыта. Платье без рукавов,
+												сзади застегивается на молнию.
+											</div>
+
+											<div class="product__about-brand">
+												<img
+													src="../../assets/product/brand.png"
+													alt="brand"
+												/>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product__info-nav-item">
+									<h4 class="product__info-nav-title">
+										Состояние
+									</h4>
+
+									<div class="product__info-nav-content">
+										<div class="product__condition">
+											<h3
+												class="product__condition-title"
+											>
+												Хорошее
+											</h3>
+											<div
+												class="product__condition-subtitle"
+											>
+												Имеются незначительные следы
+												носки
+											</div>
+
+											<div
+												class="product__condition-text"
+											>
+												Бережное отношение к вещам и
+												уважение к будущим владельцам –
+												часть культуры ресейла. Поэтому
+												мы принимаем к продаже только те
+												вещи, которые не требуют
+												серьезной реставрации.
+												Исключение могут составить
+												архивные лоты, обладающие
+												коллекционной ценностью.
+												Подробное описание дефектов
+												можно прочитать в разделе
+												<b>О товаре.</b>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product__info-nav-item">
+									<h4 class="product__info-nav-title">
+										Детали
+									</h4>
+
+									<div class="product__info-nav-content">
+										<div class="product__details">
+											<div class="product__details-row">
+												<div
+													class="product__details-item"
+												>
+													<h4
+														class="product__details-title"
+													>
+														Размер на бирке
+													</h4>
+													<div
+														class="product__details-text"
+													>
+														S
+													</div>
+												</div>
+											</div>
+											<div class="product__details-row">
+												<div
+													class="product__details-item"
+												>
+													<h4
+														class="product__details-title"
+													>
+														состав
+													</h4>
+													<div
+														class="product__details-text"
+													>
+														Хлопок 72%, Нейлон 23%,
+														Эластан 5%
+													</div>
+												</div>
+												<div
+													class="product__details-item"
+												>
+													<h4
+														class="product__details-title"
+													>
+														страна производства
+													</h4>
+													<div
+														class="product__details-text"
+													>
+														Франция
+													</div>
+												</div>
+											</div>
+											<div class="product__details-row">
+												<div
+													class="product__details-item"
+												>
+													<h4
+														class="product__details-title"
+													>
+														рост модели
+													</h4>
+													<div
+														class="product__details-text"
+													>
+														177 см
+													</div>
+												</div>
+												<div
+													class="product__details-item"
+												>
+													<h4
+														class="product__details-title"
+													>
+														длина
+													</h4>
+													<div
+														class="product__details-text"
+													>
+														131 см
+													</div>
+												</div>
+											</div>
+											<div class="product__details-row">
+												<div
+													class="product__details-item"
+												>
+													<h4
+														class="product__details-title"
+													>
+														полуобхват груди
+													</h4>
+													<div
+														class="product__details-text"
+													>
+														46 см
+													</div>
+												</div>
+												<div
+													class="product__details-item"
+												>
+													<h4
+														class="product__details-title"
+													>
+														длина рукава
+													</h4>
+													<div
+														class="product__details-text"
+													>
+														54 см
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product__info-nav-item">
+									<h4 class="product__info-nav-title">
+										Доставка и примерка
+									</h4>
+
+									<div class="product__info-nav-content">
+										<div class="product__delivery">
+											<div class="product__delivery-text">
+												<p>
+													По Москве доставка
+													осуществляется курьером,
+													также возможен самовывоз.
+												</p>
+												<p>
+													По России и за рубеж
+													доставка курьерской службой
+													в срок <br />
+													от 2 до 7 дней в зависимости
+													от города доставки.
+												</p>
+												<p>
+													Вне зависимости от
+													количества вещей у вас будет
+													15 минут
+													<br />
+													на примерку. В случае, если
+													ни одна вещь не подошла,
+													оплачивается только
+													стоимость доставки.
+												</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product__info-nav-item">
+									<h4 class="product__info-nav-title">
+										Оплата
+									</h4>
+
+									<div class="product__info-nav-content">
+										<div class="product__info-payment">
+											<div class="product__payment-text">
+												Принимаем оплату следующими
+												способами:
+											</div>
+
+											<div
+												class="product__payment-methods"
+											>
+												<div
+													class="product__payment-item"
+												>
+													<div
+														class="product__payment-img"
+													>
+														<img
+															src="../../assets/product/payment-methods/mir.svg"
+															alt="МИР"
+														/>
+													</div>
+												</div>
+												<div
+													class="product__payment-item"
+												>
+													<div
+														class="product__payment-img"
+													>
+														<img
+															src="../../assets/product/payment-methods/visa.svg"
+															alt="VISA"
+														/>
+													</div>
+												</div>
+												<div
+													class="product__payment-item"
+												>
+													<div
+														class="product__payment-img"
+													>
+														<img
+															src="../../assets/product/payment-methods/mastercard.svg"
+															alt="mastercard"
+														/>
+													</div>
+												</div>
+												<div
+													class="product__payment-item"
+												>
+													<div
+														class="product__payment-img"
+													>
+														<img
+															src="../../assets/product/payment-methods/sbp.svg"
+															alt="Система Быстрых Платежей"
+														/>
+													</div>
+												</div>
+												<div
+													class="product__payment-item"
+												>
+													<div
+														class="product__payment-img"
+													>
+														<img
+															src="../../assets/product/payment-methods/tinkoff.svg"
+															alt="ТИНЬКОФФ"
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="product__info-nav-item">
+									<h4 class="product__info-nav-title">
+										Возврат
+									</h4>
+
+									<div class="product__info-nav-content">
+										<div class="product__refund">
+											<div class="product__refund-text">
+												<p>
+													SFS — это ресейл-платформа,
+													на которой вы имеете дело
+													<br />
+													с особенными вещами, у
+													которых до вас был другой
+													владелец. Поэтому возврат
+													товаров возможен только при
+													наличии бирки <br />
+													и пломбы SFS.
+												</p>
+												<p>
+													А если вы приобрели товар с
+													отметкой Not Used!, вернуть
+													его можно только с
+													нетронутой брендовой биркой.
+													Так мы будем уверены, что
+													вещь не была в носке и ее
+													состояние не ухудшилось.
+												</p>
+											</div>
+
+											<a
+												href="#"
+												class="product__refund-more"
+												>Подробнее →</a
+											>
+										</div>
+									</div>
+								</li>
+							</ul>
+
+							<div class="product__info-content">
+								<div class="product__about">
+									<div class="product__about-text">
+										Оранжевое бархатное платье макси с
+										бархатным узором, спина открыта. Платье
+										без рукавов, сзади застегивается на
+										молнию.
+									</div>
+
+									<div class="product__about-brand">
+										<img
+											src="../../assets/product/brand.png"
+											alt="brand"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="product__purchase">
+							<div class="product__purchase-main">
+								<button
+									class="product__purchase-button product__purchase-buy"
+								>
+									Добавить в корзину
+								</button>
+
+								<button
+									class="product__purchase-button product__purchase-buy product__purchase-buy-mobile"
+								>
+									В корзину
+								</button>
+
+								<button
+									class="product__purchase-button product__purchase-favorite"
+								></button>
+							</div>
+							<button
+								class="product__purchase-button product__purchase-one-click"
+							>
+								Купить в один клик
+							</button>
+						</div>
+					</div>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>
