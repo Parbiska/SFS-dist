@@ -2112,7 +2112,7 @@
 .modal__close-cross {
 	width: 35px;
 	height: 35px;
-	background: url(../../assets/icons/modal/cross.svg) center no-repeat;
+	background: url(../assets/icons/modal/cross.svg) center no-repeat;
 }
 .modal__close:hover {
 	cursor: pointer;
