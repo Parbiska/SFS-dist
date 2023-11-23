@@ -11,7 +11,7 @@
 
 		<title>Second Friend Store</title>
 	</head>
-	<body>
+	<body class="disable-scroll">
 		<header class="header">
 			<div class="header__top">
 				<div class="header__top-wrapper">
@@ -177,6 +177,22 @@
 			</ul>
 		</nav>
 
+		<div class="modal-photos">
+			<div class="modal-photos__wrapper">
+				<div class="modal-photos__close">
+					<div class="modal-photos__close-cross"></div>
+				</div>
+				<div class="modal-photos__counter">1 из 5</div>
+
+				<div class="modal-photos__img">
+					<img
+						src="../../assets/product/slider/img-2.png"
+						alt="img"
+					/>
+				</div>
+			</div>
+		</div>
+
 		<main>
 			<article class="product">
 				<section class="product__wrapper">
@@ -188,13 +204,13 @@
 							<div class="product__slider-content">
 								<div class="product__slider-img">
 									<img
-										src="../../assets/jewelry/img-1.jfif"
+										src="../../assets/product/slider/img-1.png"
 										alt="img"
 									/>
 								</div>
 								<div class="product__slider-img">
 									<img
-										src="../../assets/jewelry/img-2.jfif"
+										src="../../assets/product/slider/img-2.png"
 										alt="img"
 									/>
 								</div>
@@ -203,14 +219,14 @@
 								<div class="product__slider-right-arrow"></div>
 							</div>
 
-							<!-- <div class="product__slider-with">
+							<div class="product__slider-with">
 								с чем носить
 								<span class="product__slider-with-img"
 									><img
 										src="../../assets/icons/product/slider/eye.svg"
 										alt="eye"
 								/></span>
-							</div> -->
+							</div>
 
 							<div class="product__slider-progress">
 								<div
@@ -256,16 +272,16 @@
 
 						<div class="product__only-online">только онлайн</div>
 
-						<h2 class="product__title">Cartier</h2>
+						<h2 class="product__title">
+							Comme Des Garcons Junya Watanabe
+						</h2>
 
-						<div class="product__jewelry-subtitle">
-							Обручальное кольцо из комбинированного золота с
-							бриллиантами
-						</div>
-
-						<div class="product__jewelry-model">
-							<div class="product__jewelry-model-text">
-								Модель Lady Dior
+						<div class="product__subtitle">
+							<div class="product__subtitle-text">
+								Платье черного цвета
+							</div>
+							<div class="product__subtitle-text-mobile">
+								Платье черного цвета • размер xs
 							</div>
 							<div class="product__subtitle-authentication">
 								Вещь аутентифицирована
@@ -303,9 +319,9 @@
 
 						<div class="product__size">
 							<div class="product__size-text">
-								<span>Размер 18,5</span>
+								<span>Размер 38,5</span>
 								<span>•</span>
-								<span>На бирке 18,5</span>
+								<span>На бирке М</span>
 							</div>
 
 							<div class="product__size-table">
@@ -324,22 +340,24 @@
 
 						<div class="product__info">
 							<ul class="product__info-nav">
-								<li class="product__info-nav-item">
+								<li class="product__info-nav-item is-active">
 									<h4 class="product__info-nav-title">
 										О товаре
 									</h4>
 									<div class="product__info-nav-content">
-										<div class="product__jewelry">
-											<div class="product__jewelry-text">
-												<p>
-													Золотое кольцо с фирменной
-													гравировкой.
-												</p>
+										<div class="product__about">
+											<div class="product__about-text">
+												Оранжевое бархатное платье макси
+												с бархатным узором, спина
+												открыта. Платье без рукавов,
+												сзади застегивается на молнию.
+											</div>
 
-												<p>
-													Продавцом данного товара
-													является ИП Любан А.А.
-												</p>
+											<div class="product__about-brand">
+												<img
+													src="../../assets/product/brand.png"
+													alt="brand"
+												/>
 											</div>
 										</div>
 									</div>
@@ -505,59 +523,109 @@
 									</h4>
 
 									<div class="product__info-nav-content">
-										<div class="product__jewelry">
-											<div class="product__jewelry-text">
+										<div class="product__delivery">
+											<div class="product__delivery-text">
 												<p>
-													При оформлении заказа на
-													ювелирное изделие вы можете
-													выбрать доставку в пункт
-													самовывоза или доставку по
-													России.
+													По Москве доставка
+													осуществляется курьером,
+													также возможен самовывоз.
 												</p>
-
 												<p>
-													Доставка по России
-													осуществляется только по
-													полной предоплате.
+													По России и за рубеж
+													доставка курьерской службой
+													в срок <br />
+													от 2 до 7 дней в зависимости
+													от города доставки.
 												</p>
-
 												<p>
-													Примерка возможна при выборе
-													опции самовывоза, по адресу
-													г. Москва, Мясницкая ул., д.
-													24/7 стр.1.
+													Вне зависимости от
+													количества вещей у вас будет
+													15 минут
+													<br />
+													на примерку. В случае, если
+													ни одна вещь не подошла,
+													оплачивается только
+													стоимость доставки.
 												</p>
 											</div>
 										</div>
 									</div>
 								</li>
-								<li class="product__info-nav-item is-active">
+								<li class="product__info-nav-item">
 									<h4 class="product__info-nav-title">
 										Оплата
 									</h4>
 
 									<div class="product__info-nav-content">
-										<div class="product__jewelry">
-											<div class="product__jewelry-text">
-												<p>
-													Продавцом данного товара
-													является ИП Любан А.А.
-													Ювелирные изделия будут
-													оформлены отдельным заказом.
-												</p>
+										<div class="product__info-payment">
+											<div class="product__payment-text">
+												Принимаем оплату следующими
+												способами:
+											</div>
 
-												<p>
-													При оформлении заказа вам
-													будет предложено несколько
-													вариантов оплаты:
-												</p>
-
-												<p>
-													• наличными при получении в
-													пункте самовывоза
-													<br />
-													• по ссылке
-												</p>
+											<div
+												class="product__payment-methods"
+											>
+												<div
+													class="product__payment-item"
+												>
+													<div
+														class="product__payment-img"
+													>
+														<img
+															src="../../assets/product/payment-methods/mir.svg"
+															alt="МИР"
+														/>
+													</div>
+												</div>
+												<div
+													class="product__payment-item"
+												>
+													<div
+														class="product__payment-img"
+													>
+														<img
+															src="../../assets/product/payment-methods/visa.svg"
+															alt="VISA"
+														/>
+													</div>
+												</div>
+												<div
+													class="product__payment-item"
+												>
+													<div
+														class="product__payment-img"
+													>
+														<img
+															src="../../assets/product/payment-methods/mastercard.svg"
+															alt="mastercard"
+														/>
+													</div>
+												</div>
+												<div
+													class="product__payment-item"
+												>
+													<div
+														class="product__payment-img"
+													>
+														<img
+															src="../../assets/product/payment-methods/sbp.svg"
+															alt="Система Быстрых Платежей"
+														/>
+													</div>
+												</div>
+												<div
+													class="product__payment-item"
+												>
+													<div
+														class="product__payment-img"
+													>
+														<img
+															src="../../assets/product/payment-methods/tinkoff.svg"
+															alt="ТИНЬКОФФ"
+														/>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -568,49 +636,54 @@
 									</h4>
 
 									<div class="product__info-nav-content">
-										<div class="product__jewelry">
-											<div class="product__jewelry-text">
+										<div class="product__refund">
+											<div class="product__refund-text">
 												<p>
-													Возврат возможен при наличии
-													бирки, пломбы SFS и полной
-													сохранности упаковки, в
-													которой изделие было
-													передано покупателю.
+													SFS — это ресейл-платформа,
+													на которой вы имеете дело
+													<br />
+													с особенными вещами, у
+													которых до вас был другой
+													владелец. Поэтому возврат
+													товаров возможен только при
+													наличии бирки <br />
+													и пломбы SFS.
 												</p>
-
 												<p>
-													По вопросам возврата
-													необходимо обращаться на
-													почту ПОЧТА ИП или по
-													телефону ТЕЛЕФОН ИП.
+													А если вы приобрели товар с
+													отметкой Not Used!, вернуть
+													его можно только с
+													нетронутой брендовой биркой.
+													Так мы будем уверены, что
+													вещь не была в носке и ее
+													состояние не ухудшилось.
 												</p>
 											</div>
+
+											<a
+												href="#"
+												class="product__refund-more"
+												>Подробнее →</a
+											>
 										</div>
 									</div>
 								</li>
 							</ul>
 
 							<div class="product__info-content">
-								<div class="product__jewelry">
-									<div class="product__jewelry-text">
-										<p>
-											Продавцом данного товара является ИП
-											Любан А.А. Ювелирные изделия будут
-											оформлены отдельным заказом.
-										</p>
+								<div class="product__about">
+									<div class="product__about-text">
+										Оранжевое бархатное платье макси с
+										бархатным узором, спина открыта. Платье
+										без рукавов, сзади застегивается на
+										молнию.
+									</div>
 
-										<p>
-											При оформлении заказа вам будет
-											предложено несколько вариантов
-											оплаты:
-										</p>
-
-										<p>
-											• наличными при получении в пункте
-											самовывоза
-											<br />
-											• по ссылке
-										</p>
+									<div class="product__about-brand">
+										<img
+											src="../../assets/product/brand.png"
+											alt="brand"
+										/>
 									</div>
 								</div>
 							</div>
@@ -644,7 +717,5 @@
 				</section>
 			</article>
 		</main>
-
-		<script src="../../js/purchase-padding.js"></script>
 	</body>
 </html>
