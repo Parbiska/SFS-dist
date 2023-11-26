@@ -195,7 +195,7 @@
     width: 100%;
     padding: 6px 40px 0;
     margin: 0;
-    z-index: 2;
+    z-index: 3;
     position: fixed;
     top: 0;
     left: 0;
@@ -356,7 +356,7 @@
     width: 100%;
     height: 22px;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     top: 36px;
     left: 0;
     background: #FFF;
@@ -392,6 +392,12 @@
     display: flex;
     justify-content: space-between;
     margin-top: 8px;
+  }
+  .product__price-wrapper-discount {
+    flex-direction: column;
+  }
+  .product__price-wrapper-discount .product__price-installment {
+    margin: 6px 0 0 0;
   }
   .product__price .product__only-online {
     display: flex;
@@ -464,16 +470,6 @@
   .product__purchase-main {
     height: 60px;
   }
-  .product__purchase-notice {
-    width: 100%;
-    height: 28px;
-    position: fixed;
-    top: 58px;
-    left: 0;
-  }
-  .product__purchase-notice-text {
-    display: none;
-  }
   .product__purchase-buy {
     display: none;
     width: calc(100% - 60px);
@@ -493,6 +489,22 @@
   }
   .product__purchase-one-click {
     width: 100%;
+  }
+}
+@media (max-width: 1023px) {
+  .product__notice {
+    width: 100%;
+    padding: 3px 20px;
+    position: fixed;
+    top: 58px;
+    left: 0;
+    z-index: 2;
+  }
+  .product__notice-text-fitting {
+    display: none;
+  }
+  .product__notice_hidden {
+    transform: translateY(-100%);
   }
 }
 @media (max-width: 1023px) {
@@ -940,10 +952,10 @@
   .product__nav-mobile-wrapper {
     top: 32px;
   }
-  .product__purchase-notice {
+  .product__notice {
     top: 52px;
   }
-  .product__purchase-notice-title {
+  .product__notice-title {
     font-size: 11px;
     letter-spacing: -0.11px;
   }
@@ -1199,7 +1211,7 @@
   }
 
   .header-menu__showroom-item-time {
-    width: 280px;
+    width: 313px;
   }
 
   .selection-slider__title {
@@ -1342,8 +1354,11 @@
   }
 }
 @media (max-width: 350px) {
-  .footer__selection-item {
-    margin-left: 12px;
+  .header-menu__showroom-item-time {
+    width: 100%;
+  }
+  .header-menu__contacts-item {
+    width: auto;
   }
 
   .product__details {
@@ -1369,6 +1384,9 @@
     height: 139px;
   }
 
+  .footer__selection-item {
+    margin-left: 12px;
+  }
   .footer__column-item {
     width: 140px;
   }
