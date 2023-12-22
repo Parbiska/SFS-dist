@@ -135,6 +135,17 @@
   .footer__newsletter-wrapper {
     margin-top: 32px;
   }
+  .footer__newsletter-auth {
+    margin-top: 32px;
+    width: 430px;
+  }
+  .footer__newsletter-auth span {
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+  .footer__newsletter-auth p {
+    margin-top: 12px;
+  }
   .footer-logo {
     position: static;
     width: 251.875px;
@@ -1189,6 +1200,10 @@
   .modal-photos__img {
     max-width: auto;
     height: 600px;
+  }
+
+  .footer__newsletter-auth {
+    width: 100%;
   }
 }
 @media (max-width: 424px) {
