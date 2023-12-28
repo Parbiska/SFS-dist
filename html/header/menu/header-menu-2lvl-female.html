@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="../../../css/libs/reset.css" />
+		<link rel="stylesheet" href="../../../css/fonts.css" />
+		<link rel="stylesheet" href="../../../css/style.css" />
+		<link rel="stylesheet" href="../../../css/responsive.css" />
+
+		<title>Second Friend Store</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__top">
+				<div class="header__top-wrapper">
+					<div class="header__top-item header__top-address">
+						Шоурум в Москве: ул. Мясницкая 24/7 стр 1 • работаем с
+						11:00 до 21:00
+					</div>
+					<div class="header__top-item">
+						<div class="header__top-number">
+							+7 495 268 06 33 или 8 800 777 61 49
+						</div>
+						<div>Доставка по всему миру</div>
+					</div>
+				</div>
+			</div>
+			<h1 class="header-title">cеконд-хэнд эксклюзивных брендов</h1>
+
+			<div class="header__main">
+				<div class="header__main-left-nav header__main-left-desktop">
+					<a href="#" class="header__main-left-link is-active"
+						>Женское</a
+					>
+					<a href="#" class="header__main-left-link">Мужское</a>
+					<a href="#" class="header__main-left-link">Детское</a>
+				</div>
+
+				<div class="header__main-left-nav header__main-left-mobile">
+					<div class="header__main-left-item header__burger"></div>
+					<div class="header__main-left-item header__search"></div>
+					<div
+						class="header__main-left-item header__cross show"
+					></div>
+				</div>
+
+				<div class="header__main-logo">
+					<a class="header__main-logo-link" href="#"></a>
+				</div>
+
+				<div class="header__main-right">
+					<div class="header__main-right-nav">
+						<a
+							href="#"
+							class="header__main-right-link header__main-right-link_sell"
+							>Продать вещи</a
+						>
+						<a href="#" class="header__main-right-link">Медиа</a>
+					</div>
+					<div class="header__main-user">
+						<a href="#" class="header__main-user-link">
+							<div
+								class="header__main-user-img header__main-user-search"
+							></div>
+						</a>
+						<a href="#" class="header__main-user-link">
+							<div
+								class="header__main-user-img header__main-user-favorite"
+							></div>
+							<span class="header__main-count"></span>
+						</a>
+						<a href="#" class="header__main-user-link">
+							<div
+								class="header__main-user-img header__main-user-cart"
+							></div>
+							<span class="header__main-count"></span>
+						</a>
+						<a href="#" class="header__main-user-link">
+							<div
+								class="header__main-user-img header__main-user-profile"
+							></div>
+							<span class="header__main-user-name"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<nav class="header__nav">
+				<ul class="header__nav-menu">
+					<li class="header__nav-menu-item dropdown-menu-trigger">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Одежда</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item dropdown-menu-trigger">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Обувь</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item dropdown-menu-trigger">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Аксессуары</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item dropdown-menu-trigger">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Сумки</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Sale</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Новинки</h2>
+							</a>
+						</div>
+					</li>
+
+					<li
+						class="header__nav-menu-item dropdown-menu-brands-trigger"
+					>
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Бренды</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Hot lots</h2>
+							</a>
+						</div>
+					</li>
+
+					<li class="header__nav-menu-item dropdown-menu-trigger">
+						<div>
+							<a href="#" class="header__nav-link">
+								<h2>Ювелирные изделия</h2>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="header-menu show">
+			<div class="header-menu__wrapper">
+				<div class="header-menu__search">
+					<form class="header-menu__search-form">
+						<div class="header-menu__search-input">
+							<input type="text" placeholder="найти товар" />
+						</div>
+					</form>
+				</div>
+
+				<ul class="header-menu__list">
+					<li
+						class="header-menu__item header-menu__item_menu is-active"
+					>
+						<h2
+							class="header-menu__title header-menu__title_trigger"
+						>
+							Женское
+						</h2>
+
+						<ul class="header-menu__nav">
+							<li class="header-menu__nav-item">
+								<a href="#" class="header-menu__nav-link">
+									Главная
+								</a>
+							</li>
+
+							<li class="header-menu__nav-item">
+								<a href="#" class="header-menu__nav-link">
+									Новинки
+								</a>
+							</li>
+
+							<li
+								class="header-menu__nav-item header-menu__nav-item_menu is-active"
+							>
+								<h3 class="header-menu__nav-trigger">Одежда</h3>
+
+								<ul class="header-menu__nav-lv3">
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Пиджаки и жилеты
+										</a>
+									</li>
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Трикотаж
+										</a>
+									</li>
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Комбинезоны
+										</a>
+									</li>
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Костюмы с юбками
+										</a>
+									</li>
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Юбки
+										</a>
+									</li>
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Шорты
+										</a>
+									</li>
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Костюмы с брюками
+										</a>
+									</li>
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Верхняя одежда
+										</a>
+									</li>
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Футболки и топы
+										</a>
+									</li>
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Платья
+										</a>
+									</li>
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Брюки и джинсы
+										</a>
+									</li>
+									<li class="header-menu__nav-item">
+										<a
+											href="#"
+											class="header-menu__nav-link"
+										>
+											Рубашки и блузки
+										</a>
+									</li>
+								</ul>
+							</li>
+
+							<li
+								class="header-menu__nav-item header-menu__nav-item_menu"
+							>
+								<h3 class="header-menu__nav-trigger">Обувь</h3>
+							</li>
+
+							<li
+								class="header-menu__nav-item header-menu__nav-item_menu"
+							>
+								<h3 class="header-menu__nav-trigger">
+									Аксессуары
+								</h3>
+							</li>
+
+							<li
+								class="header-menu__nav-item header-menu__nav-item_menu"
+							>
+								<h3 class="header-menu__nav-trigger">Сумки</h3>
+							</li>
+
+							<li class="header-menu__nav-item">
+								<a href="#" class="header-menu__nav-link">
+									Sale
+								</a>
+							</li>
+
+							<li class="header-menu__nav-item">
+								<a href="#" class="header-menu__nav-link">
+									Not Used
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="header-menu__item header-menu__item_menu">
+						<h2
+							class="header-menu__title header-menu__title_trigger"
+						>
+							Мужское
+						</h2>
+					</li>
+					<li class="header-menu__item header-menu__item_menu">
+						<h2
+							class="header-menu__title header-menu__title_trigger"
+						>
+							Детское
+						</h2>
+					</li>
+					<li class="header-menu__item header-menu__item_menu">
+						<h2
+							class="header-menu__title header-menu__title_trigger"
+						>
+							Бренды
+						</h2>
+					</li>
+					<li class="header-menu__item">
+						<h2 class="header-menu__title">
+							<a href="#" class="header-menu__title-link">
+								Подборки
+							</a>
+						</h2>
+					</li>
+					<li class="header-menu__item">
+						<h2 class="header-menu__title">
+							<a href="#" class="header-menu__title-link">
+								Заказ и доставка
+							</a>
+						</h2>
+					</li>
+					<li class="header-menu__item">
+						<h2 class="header-menu__title">
+							<a
+								href="#"
+								class="header-menu__title-link header-menu__title-link_orange"
+							>
+								Продать вещи
+							</a>
+						</h2>
+					</li>
+					<li class="header-menu__item">
+						<h2 class="header-menu__title">
+							<a href="#" class="header-menu__title-link">
+								Медиа
+							</a>
+						</h2>
+					</li>
+					<li class="header-menu__item">
+						<h2 class="header-menu__title">
+							<a href="#" class="header-menu__title-link">
+								О магазине
+							</a>
+						</h2>
+					</li>
+					<li class="header-menu__item header-menu__item-info">
+						<div class="header-menu__info header-menu__showroom">
+							<div
+								class="header-menu__showroom-item header-menu__showroom-item-address"
+							>
+								<h4 class="header-menu__info-title">
+									шоурум в Москве
+								</h4>
+								<div class="header-menu__info-text">
+									ул. Мясницкая 24/7, стр. 1, под. 12,
+									<br />
+									м. Чистые пруды
+								</div>
+							</div>
+
+							<div
+								class="header-menu__showroom-item header-menu__showroom-item-time"
+							>
+								<div class="header-menu__showroom-time">
+									<h4 class="header-menu__info-title">
+										режим работы
+									</h4>
+									<div
+										class="header-menu__info-text header-menu__info-text-time"
+									>
+										пн — вс<br />
+										с 11:00 до 21:00
+									</div>
+								</div>
+								<div class="header-menu__showroom-time">
+									<h4 class="header-menu__info-title">
+										прием вещей
+									</h4>
+									<div
+										class="header-menu__info-text header-menu__info-text-time"
+									>
+										пн — пт<br />
+										с 12:00 до 19:00
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<a href="#" class="header-menu__showroom-link">
+							как добраться →
+						</a>
+					</li>
+					<li class="header-menu__item header-menu__item-info">
+						<div class="header-menu__info header-menu__contacts">
+							<div class="header-menu__contacts-item">
+								<h4 class="header-menu__info-title">
+									по России бесплатно
+								</h4>
+								<a
+									href="tel:8 800 777 61 49"
+									class="header-menu__info-text header-menu__info-number"
+								>
+									8 800 777 61 49
+								</a>
+							</div>
+
+							<div class="header-menu__contacts-item">
+								<h4 class="header-menu__info-title">
+									по Москве
+								</h4>
+								<a
+									href="tel:+7 495 268 06 33"
+									class="header-menu__info-text header-menu__info-number"
+								>
+									+7 495 268 06 33
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="header-menu__auth">
+					<button class="header-menu__auth-button">
+						Войти в личный кабинет
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="../../../js/menu-section.js"></script>
+	</body>
+</html>
