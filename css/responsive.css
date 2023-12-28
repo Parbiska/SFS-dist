@@ -317,9 +317,6 @@
     margin-left: 16px;
     background: url("../assets/app_v2/icons/header/user/search.svg");
   }
-  .header__search.hidden {
-    display: none;
-  }
   .header__cross {
     background: url("../assets/app_v2/icons/header/cross.svg") center no-repeat;
   }
@@ -1245,12 +1242,12 @@
   .header {
     height: 32px;
   }
+  .header__search {
+    margin-left: 8px;
+  }
   .header__main {
     height: 32px;
     padding: 6px 19px 0;
-  }
-  .header__main-left-item {
-    margin-left: 8px;
   }
   .header__main-user {
     margin-left: 0;
