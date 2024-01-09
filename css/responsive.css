@@ -367,14 +367,11 @@
   .header__main-user-link {
     margin-left: 14px;
   }
-  .header__main-user-link:first-child {
+  .header__main-user-link.desktop-only {
     display: none;
   }
   .header__main-user-link:nth-child(2) {
     margin-left: 0;
-  }
-  .header__main-user-link:last-child {
-    display: none;
   }
   .header__nav {
     display: none;
